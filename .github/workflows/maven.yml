@@ -31,8 +31,8 @@ jobs:
       run: mvn clean install
 
     - name: Build & push Docker image
-        uses: mr-smithers-excellent/docker-build-push@v6
-        with:
+      uses: mr-smithers-excellent/docker-build-push@v6
+      with:
           image: ericsonw200/advertising-app-images
           tags: latest
           registry: docker.io
