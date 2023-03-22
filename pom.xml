@@ -14,7 +14,7 @@
     <name>avertising-service</name>
     <description>avertising-service</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>1.8</java.version>
         <mapstruct.version>1.5.3.Final</mapstruct.version>
     </properties>
     <dependencies>
